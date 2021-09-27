@@ -60,3 +60,8 @@ purpose of this project is refactoring your old code and masure performance.To d
 ![green_stock2017](https://user-images.githubusercontent.com/90277142/134863641-ae2eceaf-ad77-44ef-97b2-318305ddbe89.png)
 ![green_stock2018](https://user-images.githubusercontent.com/90277142/134863669-ddf96113-758b-4c75-befb-3eed78e08752.png)
 
+#### Summary
+**Advantages of refactoring code**-by refactoring code coder write efficient code that run faster and inhance performance.
+**Disadvantage of refactoring code** Some time coder mess-up with old code that took more time to understand code and write again
+In refactored VBA script I tried to inhance the code performance by using index. original script is not run faster  like refactored VBA script.There are differences in their performance.
+

@@ -45,3 +45,6 @@ purpose of this project is refactoring your old code and masure performance.To d
  
 ![Data_Resultof2017](https://user-images.githubusercontent.com/90277142/134859367-e31a931c-310d-4e87-9282-ee7cf33afc76.png)
 
+ * **My Outpur Worksheet for (All Stocks-2018) looks like following:**
+
+![Data_Resultof2018](https://user-images.githubusercontent.com/90277142/134859534-a20bcccf-c8f2-47b1-9677-3a2ac492d3d5.png)

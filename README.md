@@ -19,12 +19,27 @@ purpose of this project is refactoring your old code and masure performance.To d
   tickerIndex = 0
 * Found the no. of rows with the help of this code to loop over.
    - RowCount = Cells(Rows.Count, "A").End(xlUp).Row  
-* Created a outer For loop that goes through all of the ticker inside the for loop get the tickerindex from the tickers() array and initialize the tickerVolumes to zero.
+* Created a outer For loop with iterator tickerIndex that goes through all of the ticker inside the for loop get the tickerindex from the tickers() array and initialize the tickerVolumes to zero also.
   - For tickerIndex = 0 To 11
   - tickerVolumes(tickerIndex) = 0
-* Created a inner for loop with j iterator and increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.
+* Created a inner for loop with j iterator and increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.And       Used the tickerIndex variable as the index.
   - For j = 2 To RowCount 
   - If Cells(j, 1).Value = tickers(tickerIndex) Then
   - tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
   - End If
+* Using Multiple condition check if the current row is the first row with the selected tickerIndex. If it is, then assign the current starting price to the tickerStartingPrices   variable.
+  - If Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
+  - tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
+  - End If
+* Similarly Multiple condition check if the current row is the last row with the selected tickerIndex. If it is, then assign the current closing price to the tickerEndingPrices variable.
+  - If Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
+  - tickerEndingPrices(tickerIndex) = Cells(j, 6).Value
+  - End If
+* Looping through your arrays to output the Ticker, Total Daily Volume, and Return in Output worksheet.
+  - Worksheets("All Stocks Analysisrefactored").Activate
+  - Cells(4 + tickerIndex, 1).Value = tickers(tickerIndex)
+  - Cells(4 + tickerIndex, 2).Value = tickerVolumes(tickerIndex)
+  - Cells(4 + tickerIndex, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
+ 
+
 

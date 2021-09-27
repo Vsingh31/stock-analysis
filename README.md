@@ -6,5 +6,5 @@ purpose of this project is refactoring your old code and masure performance.To t
   tickerIndex = 0
 * Created three output array.In VBA array starts with 0.We anitialize array with **DIM** Keyword.there was one more array named tickers() that created for holding all the        tickers.
    - Dim tickerVolumes(0 To 11) As Long
-    -Dim tickerStartingPrices(0 To 11) As Single
-    -Dim tickerEndingPrices(0 To 11) As Single
+   - Dim tickerStartingPrices(0 To 11) As Single
+   - Dim tickerEndingPrices(0 To 11) As Single

@@ -48,3 +48,11 @@ purpose of this project is refactoring your old code and masure performance.To d
  * **My Outpur Worksheet for (All Stocks-2018) looks like following:**
 
 ![Data_Resultof2018](https://user-images.githubusercontent.com/90277142/134859534-a20bcccf-c8f2-47b1-9677-3a2ac492d3d5.png)
+
+* Execution time of original code and refactored code is different.refactored code run faster than original code.
+
+**Execution time of Refactored code**
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/90277142/134861092-ebc615a7-2694-4969-a4d9-b97181246cd4.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/90277142/134861120-4c435c17-68bb-4587-8ed5-d830d5235085.png)
+

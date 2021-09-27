@@ -24,7 +24,7 @@ purpose of this project is refactoring your old code and masure performance.To d
   - tickerVolumes(tickerIndex) = 0
 * Created a inner for loop with j iterator and increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.
   - For j = 2 To RowCount 
-           - If Cells(j, 1).Value = tickers(tickerIndex) Then
-               - tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
-          - End If
+  - If Cells(j, 1).Value = tickers(tickerIndex) Then
+  - tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
+  - End If
 

@@ -40,6 +40,9 @@ purpose of this project is refactoring your old code and masure performance.To d
   - Cells(4 + tickerIndex, 1).Value = tickers(tickerIndex)
   - Cells(4 + tickerIndex, 2).Value = tickerVolumes(tickerIndex)
   - Cells(4 + tickerIndex, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
+  
+ * **My Outpur Worksheet for (All Stocks-2017) looks like following:**
+ 
  
 
 

@@ -55,3 +55,8 @@ purpose of this project is refactoring your old code and masure performance.To d
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/90277142/134861092-ebc615a7-2694-4969-a4d9-b97181246cd4.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/90277142/134861789-ee093b31-4fdf-4e8b-b4ac-d9f7dfc91397.png)
+
+**execution times of the original Code**
+![green_stock2017](https://user-images.githubusercontent.com/90277142/134863641-ae2eceaf-ad77-44ef-97b2-318305ddbe89.png)
+![green_stock2018](https://user-images.githubusercontent.com/90277142/134863669-ddf96113-758b-4c75-befb-3eed78e08752.png)
+
